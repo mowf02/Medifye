@@ -1,0 +1,13 @@
+{
+  "short_name": "Medifye",
+  "name": "Get more danceable, more medieval recommendations.",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone"
+}
