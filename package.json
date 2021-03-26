@@ -1,4 +1,5 @@
 {
+  "homepage": "https://mowf02.github.io/medifye.github.io/",
   "name": "medifye",
   "version": "0.1.0",
   "private": true,
@@ -13,7 +14,6 @@
     "axios": "^0.19.2",
     "bootstrap": "^4.5.0",
     "chart.js": "^2.9.3",
-    "gh-pages": "^3.1.0",
     "react": "^16.13.1",
     "react-audio-player": "^0.13.0",
     "react-bootstrap": "^1.0.1",
@@ -27,14 +27,14 @@
     "react-scripts": "3.4.1",
     "react-transition-group": "^4.4.1"
   },
-  "homepage": "http://lizmowforth.com/",
   "scripts": {
     "start": "react-scripts start --no-cache",
     "build": "react-scripts build",
     "test": "react-scripts test --no-cache",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && gh-pages -d build",
-    "netlify": "npm run build && netlify deploy && netlify deploy --prod"
+    "deploy": "gh-pages -d build",
+    "netlify": "npm run build && netlify deploy && netlify deploy --prod",
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -50,5 +50,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }

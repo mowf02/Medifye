@@ -204,7 +204,9 @@ class Dashboard extends Component {
     });
   }
 
-  showNextRecommendation() {
+  showNextRecommendation(event) {
+    event.preventDefault();
+
     let looper = ++this.state.index % this.state.moreDanceableRecommendations.length;
     this.setState({
       index: looper
@@ -261,8 +263,6 @@ class Dashboard extends Component {
       }
     }
   }
-
-
 
   async componentDidMount() {
     try {
@@ -383,7 +383,7 @@ class Dashboard extends Component {
             {showInput ? <div>{this.state.resultsTableHeading}</div> : <div></div>}
             {results[this.state.index]}
             {showInput ? <form name="resetForm">
-              <input type="submit" onClick={this.showNextRecommendation} className="button-primary" value="Show me another medieval track" />
+              <input type="submit" onClick={this.showNextRecommendation} className="button-primary" value="Show me another" />
               <input type="submit" onClick={this.resetMedifyer} className="button-secondary" value="Start again" />
             </form> : <div></div> }
           </div>
