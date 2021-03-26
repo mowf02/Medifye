@@ -9,7 +9,7 @@ class SubmitButton extends React.Component {
     return (
       <div>
         <Button
-          className="button"
+          className="button-primary"
           variant="success"
           onClick={() => this.props.handleLogin()}
         >

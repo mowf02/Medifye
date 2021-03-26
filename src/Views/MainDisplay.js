@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import MoodDashboard from "../Components/Mood/MoodDashboard";
+import Dashboard from "../Components/Mood/Dashboard";
 import Loading from "../Components/Loading";
 import Footer from "../Components/Footer";
 
@@ -29,7 +29,7 @@ class MainDisplay extends React.Component {
   /**
    * Updates the loading status of the mood dashboard in the state
    */
-  loadMoodDashboard() {
+  loadDashboard() {
     this.setState({
       childComponentIsLoading: false,
     });
@@ -41,9 +41,9 @@ class MainDisplay extends React.Component {
       <React.Fragment>
         {this.state.isLoading && <Loading />}
         <Container fluid="lg">
-          <MoodDashboard
+          <Dashboard
             token={this.props.token}
-            load={() => this.loadMoodDashboard()}
+            load={() => this.loadDashboard()}
             handleTimeout={() => this.props.handleTimeout()}
           />
           <Footer />

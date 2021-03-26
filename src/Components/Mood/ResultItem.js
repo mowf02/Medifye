@@ -41,7 +41,7 @@ class ResultItem extends React.Component {
     const resultCoverStyle = image
       ? { backgroundImage: `url(${image})` }
       : { backgroundColor: "black" };
-      
+
     let trackInfo = (
       <Fade>
           <span className="order-number">{position}</span>
@@ -56,22 +56,23 @@ class ResultItem extends React.Component {
     );
 
     let playbackBlock = (
-      <div className="wrapper-artwork"> 
-        {isPlaying? (<svg className="icon-pause" onClick={() => this.handleClick()} width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <div className="wrapper-artwork">
+        { isPlaying ? (<svg className="icon-pause" onClick={() => this.handleClick()} width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <circle cx="12" cy="12" r="11.5" fill="black" stroke="white"/>
         <path d="M11 16.5H8.75V7.5H11V16.5Z" fill="white"/>
         <path d="M15.5 16.5H13.25V7.5H15.5V16.5Z" fill="white"/>
-        </svg>) : this.state.isHovering && (<svg className="icon-play" onClick={() => this.handleClick()} width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        </svg>) : <span></span> }
+        <svg className="icon-play" onClick={() => this.handleClick()} width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <circle cx="12" cy="12" r="11.5" fill="black" stroke="white"/>
         <path d="M17 12L9.5 16.3301L9.5 7.66987L17 12Z" fill="white"/>
-        </svg>)}
+        </svg>
         <span className="result-cover" style={resultCoverStyle}></span>
       </div>
     );
 
     let item = {};
         item = (
-          <div className="wrapper">
+          <div className="wrapper" id="result-item">
             <div
               className="result-item"
               onMouseEnter={this.handleMouseHover}

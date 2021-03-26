@@ -25,6 +25,20 @@
   text-decoration: underline;
 }
 
+.result-item:hover .icon-play {
+  position: absolute;
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  height: .7in;
+  display: flex;
+}
+
 .icon-play, .icon-pause {
   position: absolute;
   opacity: 1;
@@ -36,6 +50,15 @@
   bottom: 0;
   margin: auto;
   height: .7in;
+}
+
+.icon-play {
+  display: none;
+  z-index: 0;
+}
+
+.icon-pause {
+  z-index: 1;
 }
 
 .icon-play:hover {
@@ -72,11 +95,6 @@
   width: 100%;
 }
 
-.result-track:hover {
-  /* color: yellow; */
-  /* border: 1px black; */
-}
-
 .result-summary {
   display: flex;
   flex-direction: column;
@@ -110,4 +128,8 @@
   background: #DDDDC8;
   color: black;
   width: fit-content;
+}
+
+@media (min-width: 768px) {
+ /* add some rules about play icons always showing on mobile */
 }
