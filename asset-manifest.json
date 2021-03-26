@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/medifye.github.io/static/css/main.67af67af.chunk.css",
-    "main.js": "/medifye.github.io/static/js/main.28fa61be.chunk.js",
-    "main.js.map": "/medifye.github.io/static/js/main.28fa61be.chunk.js.map",
+    "main.js": "/medifye.github.io/static/js/main.6a511421.chunk.js",
+    "main.js.map": "/medifye.github.io/static/js/main.6a511421.chunk.js.map",
     "runtime-main.js": "/medifye.github.io/static/js/runtime-main.e58303e7.js",
     "runtime-main.js.map": "/medifye.github.io/static/js/runtime-main.e58303e7.js.map",
     "static/css/2.af3c1da9.chunk.css": "/medifye.github.io/static/css/2.af3c1da9.chunk.css",
     "static/js/2.cf5e48cb.chunk.js": "/medifye.github.io/static/js/2.cf5e48cb.chunk.js",
     "static/js/2.cf5e48cb.chunk.js.map": "/medifye.github.io/static/js/2.cf5e48cb.chunk.js.map",
     "index.html": "/medifye.github.io/index.html",
-    "precache-manifest.27b394049a55a7429235689ddf864fc1.js": "/medifye.github.io/precache-manifest.27b394049a55a7429235689ddf864fc1.js",
+    "precache-manifest.4c50c021276d19697b9410ac21563cd4.js": "/medifye.github.io/precache-manifest.4c50c021276d19697b9410ac21563cd4.js",
     "service-worker.js": "/medifye.github.io/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/medifye.github.io/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.67af67af.chunk.css.map": "/medifye.github.io/static/css/main.67af67af.chunk.css.map",
@@ -24,6 +24,6 @@
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.cf5e48cb.chunk.js",
     "static/css/main.67af67af.chunk.css",
-    "static/js/main.28fa61be.chunk.js"
+    "static/js/main.6a511421.chunk.js"
   ]
 }
