@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f37f33ee70431cce061424ade8db1d77",
+    "revision": "49be83a6a5069db967e5acc8fff9d075",
     "url": "/medifye.github.io/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/medifye.github.io/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "f60dc803eab680a817fc",
+    "revision": "282e193438fdbd962a63",
     "url": "/medifye.github.io/static/css/main.67af67af.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/medifye.github.io/static/js/2.cf5e48cb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f60dc803eab680a817fc",
-    "url": "/medifye.github.io/static/js/main.6a511421.chunk.js"
+    "revision": "282e193438fdbd962a63",
+    "url": "/medifye.github.io/static/js/main.647cffb1.chunk.js"
   },
   {
     "revision": "08416b80d66ca325b201",
