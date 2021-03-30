@@ -12,6 +12,6 @@ export const scopes = [
   "playlist-modify-private",
   "playlist-modify-public",
 ];
-export const loginURL = `${authEndpoint}?client_id=${clientId}&redirect_uri=${publicUrl}&scope=${scopes.join(
+export const loginURL = `${authEndpoint}?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join(
   "%20"
 )}&response_type=token&show_dialog=true`;

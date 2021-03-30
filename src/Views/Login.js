@@ -27,20 +27,6 @@ function Login(props) {
               handleLogin={() => props.handleLogin()}
             />
           </Fade>
-          <Fade delay={2000}>
-            <h6 className="mt-5">
-              {" "}
-              Created by{" "}
-              <a
-                href="http://lizmowforth.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}
-                Liz Mowforth{" "}
-              </a>{" "}
-            </h6>
-          </Fade>
         </Fade>
       </Col>
     </Container>
