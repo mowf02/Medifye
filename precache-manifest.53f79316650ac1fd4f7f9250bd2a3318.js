@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "49be83a6a5069db967e5acc8fff9d075",
+    "revision": "3bc558132f53d10091a7e3f1175d52c3",
     "url": "/medifye.github.io/index.html"
   },
   {
-    "revision": "2262e579701f34ca73ad",
+    "revision": "03f43bfd5bfd03717281",
     "url": "/medifye.github.io/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "282e193438fdbd962a63",
-    "url": "/medifye.github.io/static/css/main.67af67af.chunk.css"
+    "revision": "227ee33e5dcff6fa7b7e",
+    "url": "/medifye.github.io/static/css/main.9a4c3a8a.chunk.css"
   },
   {
-    "revision": "2262e579701f34ca73ad",
-    "url": "/medifye.github.io/static/js/2.cf5e48cb.chunk.js"
+    "revision": "03f43bfd5bfd03717281",
+    "url": "/medifye.github.io/static/js/2.fc361429.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/medifye.github.io/static/js/2.cf5e48cb.chunk.js.LICENSE.txt"
+    "url": "/medifye.github.io/static/js/2.fc361429.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "282e193438fdbd962a63",
-    "url": "/medifye.github.io/static/js/main.647cffb1.chunk.js"
+    "revision": "227ee33e5dcff6fa7b7e",
+    "url": "/medifye.github.io/static/js/main.99e2cb70.chunk.js"
   },
   {
     "revision": "08416b80d66ca325b201",

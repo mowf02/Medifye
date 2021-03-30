@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/medifye.github.io/precache-manifest.bd4848dcfadbff6458506ef5061da595.js"
+  "/medifye.github.io/precache-manifest.53f79316650ac1fd4f7f9250bd2a3318.js"
 );
 
 self.addEventListener('message', (event) => {
