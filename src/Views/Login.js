@@ -3,6 +3,8 @@ import SubmitButton from "../Components/SubmitButton";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Fade from "react-reveal/Fade";
+import HeaderSmall from "../Assets/header-small.png";
+import HeaderLarge from "../Assets/header-large.png";
 
 function Login(props) {
   if (props.isLoggedIn) {
@@ -12,37 +14,30 @@ function Login(props) {
     <Container>
       <Col className="d-flex align-items-center flex-column login justify-content-center login">
         <Fade duration={2000}>
-          <header> Medify </header>
+          <picture>
+            <source srcSet={`${HeaderSmall} 1x`} media="(max-width: 768px)" />
+            <img
+              className="login-img"
+              srcSet={`${HeaderLarge} 2x`}
+              alt="Full Logo" />
+          </picture>
           <Fade delay={1000}>
             <SubmitButton
               isLoggedIn={props.isLoggedIn}
               handleLogin={() => props.handleLogin()}
             />
           </Fade>
-
-          <h4 className="mt-5">Get more danceable, more medieval recommendations.</h4>
-          <h6 className="mt-5">
-            {" "}
-            Created by{" "}
-            <a
-              href="http://lizmowforth.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {" "}
-              Liz Mowforth{" "}
-            </a>{" "}
-          </h6>
           <Fade delay={2000}>
-            <h6>
-              Powered by{" "}
+            <h6 className="mt-5">
+              {" "}
+              Created by{" "}
               <a
-                href="https://developer.spotify.com/documentation/web-api/"
-                target="_blank "
+                href="http://lizmowforth.com/"
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 {" "}
-                Spotify's API.{" "}
+                Liz Mowforth{" "}
               </a>{" "}
             </h6>
           </Fade>

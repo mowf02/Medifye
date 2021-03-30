@@ -10,10 +10,11 @@ export default function Loading() {
           target="_blank"
         >
           {" "}
-          Liz Mowforth 
+          Liz Mowforth
         </a>
           {" "}using React and the Spotify API.
       </h6>
+      <h6>*with a healthy dose of baroque, renaissance, and miscellaneous other thrown in for good measure.</h6>
     </footer>
   );
 }

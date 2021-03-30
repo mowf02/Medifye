@@ -181,7 +181,7 @@ class Dashboard extends Component {
       //assume user is trying a new track.
       this.resetMedifyer();
     } else if ((!re.test(userInput))) {
-      //and then if that doesn't match the reg ex, exit out with a validation error.
+      //...and then if that doesn't match the reg ex, exit out with a validation error.
       this.showValidationError();
     }
   }
@@ -279,7 +279,6 @@ class Dashboard extends Component {
       ];
 
 ////DELETING THIS PROMTS WHOLE APP TO NOT LOAD
-      // const recentTracks = await API.getRecentTracks();
       const recentTracksFeatures = await API.getTrackFeatures(
         requestFeatures
       );
@@ -334,17 +333,18 @@ class Dashboard extends Component {
     )
   );
 
-
     return this.state.isLoading ? null : (
       <div>
         <Container fluid className={"mb-4 mt-2 header"}>
-        <picture>
-          <source srcSet={`${HeaderSmall} 1x`} media="(max-width: 768px)" />
-          <img
-            className="logo"
-            srcSet={`${HeaderLarge} 2x`}
-            alt="Full Logo" />
-        </picture>
+          <a href="https://mowf02.github.io/medifye.github.io/">
+            <picture>
+              <source srcSet={`${HeaderSmall} 1x`} media="(max-width: 768px)" />
+              <img
+                className="logo"
+                srcSet={`${HeaderLarge} 2x`}
+                alt="Full Logo" />
+            </picture>
+          </a>
         </Container>
         <Container fluid className={"mb-4 mt-2"}>
           <p>Give <i>Medifye</i> any track on Spotify, and it will recommend a medieval* equivalent which is more danceable. Even if your favourite tune is <i>Sandstorm</i> by Darude.</p>
